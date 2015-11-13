@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>PRETTIFY</title>
+	<link href="http://fonts.googleapis.com/css?family=Lobster|IM+Fell+DW+Pica|Josefin+Sans+Std+Light" rel='stylesheet' type='text/css'> 
+    <link rel="shorcut icon" href="img/laboratoria.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SCROLLBAR JS JQ -->
+	<meta name="description" content="A crossbrowser lightweight javascript/jQuery scrollbar." />
+	<link rel="stylesheet" href="tinyscrollbar.css" type="text/css" media="screen"/>
+	<script src="tinyscrollbar.js"></script>
+	<script type="text/javascript">
+	window.onload = function()
+	{var $scrollbar = document.getElementById("scrollbar1")
+	,   scrollbar  = tinyscrollbar($scrollbar);
+	$scrollbar.addEventListener("move", function()
+	{console.log(scrollbar.contentPosition);}, false);}
+	</script>
+</head>
+
+<body>
+
+	<!--_________________________HEADER________________________-->
+	<div class="header">
+		<div class="main-menu"> 
+			<ul class="list-nav">
+				<li>
+					<a href="#">ABOUT</a>
+				</li>
+				<li>
+				    <a href="#">FAVOURITES</a>				
+				</li>
+				<li>
+				    <a href="#">CONTACT</a>				
+				</li>
+			</ul>
+		</div>
+		<div class="header-content">
+			<img src="intereses/bandera-peru.jpg">
+			<h1>Maria de Fatima</h1>
+			<p>Laboratoria - Arequipa, Perú</p>
+		</div>
+	</div>
+	<!--_________________________ABOUT ME________________________-->
+	<div class="about-me">
+		<div class="container">
+			<h3>About Me</h3>
+			<p class="biografia">
+				<img src="intereses/mariadefatima.jpg" class="thumbnail">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vel quae! Iure architecto ad quasi animi, quas delectus officia possimus veritatis amet a est quos natus vero sapiente, aliquid ab.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vel quae! Iure architecto ad quasi animi, quas delectus officia possimus veritatis amet a est quos natus vero sapiente, aliquid ab.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vel quae! Iure architecto ad quasi animi, quas delectus officia possimus veritatis amet a est quos natus vero sapiente, aliquid ab.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, vel quae! Iure architecto ad quasi animi, quas delectus officia possimus veritatis amet a est quos natus vero sapiente, aliquid ab.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		</div>
+	</div>
+	<!--_________________________MY FAVOURITES________________________-->
+	<div id="scrollbar1"><!-- estilo de scrollbar js jq -->
+	<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div><!-- estilo de scrollbar js jq-->
+	<div class="viewport"><!-- estilo de scrollbar js jq-->
+	<div class="overview"><!-- estilo de scrollbar js jq-->
+
+	<div class="favoritos">
+		<div class="container">
+			<h3>My Favourite Things</h3>
+			<h5>Here are a few things I really love</h5>
+			<ul class="list-nav">
+				<li>
+					<a href="#"><img src="intereses/0.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/1.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/2.png"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/3.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/4.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/5.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/6.jpg"></a>
+				</li>
+				<li>
+					<a href="#"><img src="intereses/7.jpg"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	</div><!-- estilo de scrollbar js jq-->
+	</div><!-- estilo de scrollbar js jq-->
+	</div><!-- estilo de scrollbar js jq-->
+	<!--_________________________CONTACT________________________-->
+	<div class="contacto text-center">
+		<div class="container">
+			<h3>Contact Me</h3>
+			<ul class="list-nav contact">
+				<li><a href="https://twitter.com/mafiRiquelme/"><img src="img/twitter.png"></a></li>
+				<li><a href="https://www.facebook.com/mariadefatima.rc.5/"><img src="img/facebook.png"></a></li>
+				<li><a href="https://www.linkedin.com/"><img src="img/linkedin.png"></a></li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>
